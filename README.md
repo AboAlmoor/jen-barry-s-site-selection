@@ -1,6 +1,6 @@
 # Jen and Barry's Ice Cream Site Selection Using PostGIS
 
-![alt text](image.png)
+![alt text](model-builder.png)
 
 ## Assignment
 
@@ -407,31 +407,37 @@ The four cities that met all seven criteria represent optimal locations for Jen 
 ## Project Structure
 
 ```
-ice-cream-site-selection/
+ICE_CREAM/
 │
-├── sql/
-│   ├── 01_good_counties.sql
-│   ├── 02_candidate_cities_stage1.sql
-│   ├── 03_candidate_cities_stage2.sql
-│   ├── 04_candidate_cities_final.sql
-│   └── 05_complete_workflow.sql
-│
-├── data/
+├── ice_cream_data/
 │   ├── counties.shp
+│   ├── counties.dbf
+│   ├── counties.prj
+│   ├── counties.shx
 │   ├── cities.shp
+│   ├── cities.dbf
+│   ├── cities.prj
+│   ├── cities.shx
 │   ├── interstates.shp
-│   └── recareas.shp
+│   ├── interstates.dbf
+│   ├── interstates.prj
+│   ├── interstates.shx
+│   ├── recareas.shp
+│   ├── recareas.dbf
+│   ├── recareas.prj
+│   └── recareas.shx
 │
-├── qgis/
-│   ├── ice_cream_project.qgz
-│   └── styles/
-│       ├── good_counties.qml
-│       └── candidate_cities.qml
+├── report/
+│   ├── jen-barry-ice-cream-report.docx
+│   ├── jen-barry-ice-cream-report.md
+│   └── jen-barry-ice-cream-report.pdf
 │
-├── results/
-│   ├── candidate_cities_final.geojson
-│   └── analysis_report.pdf
+├── visual-outputs/
+│   ├── layers-names.png
+│   └── layers-visual.png
 │
+├── ice_cream.qgz
+├── model-builder.png
 └── README.md
 ```
 
