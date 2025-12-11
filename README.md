@@ -436,6 +436,7 @@ ICE_CREAM/
 │   ├── layers-names.png
 │   └── layers-visual.png
 │
+├── assignment-ice-cream-question.pdf
 ├── ice_cream.qgz
 ├── model-builder.png
 └── README.md
