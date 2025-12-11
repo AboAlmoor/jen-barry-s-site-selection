@@ -1,5 +1,23 @@
 # Jen and Barry's Ice Cream Site Selection Using PostGIS
 
+![alt text](image.png)
+
+## Assignment
+
+**Task:**
+Find the best locations for Jen and Barry to open an ice cream business.
+
+**Selection Criteria:**
+- Greater than 500 farms for milk production.
+- A labor pool of at least 25,000 individuals between ages 18-64.
+- A low crime index (≤ 0.02).
+- Population density < 150 people per square mile.
+- Located near a university or college.
+- At least one recreation area within 10 miles.
+- Interstate within 20 miles.
+
+---
+
 ## Project Overview
 
 This project identifies optimal locations for Jen and Barry to establish a new ice cream business using spatial analysis in PostGIS and visualization in QGIS. The analysis applies seven selection criteria across county and city levels, incorporating proximity analysis to interstates and recreation areas.
@@ -10,7 +28,6 @@ This project identifies optimal locations for Jen and Barry to establish a new i
 - PostGIS (Spatial Database)
 - QGIS (Geographic Visualization)
 - SQL (Spatial Queries)
-- Pennsylvania State Plane Projection (for distance measurements)
 
 **Final Results:**
 - **Stage 1:** 9 candidate cities (county + city criteria)
@@ -536,7 +553,6 @@ SELECT COUNT(*) FROM candidate_cities_final;
 
 ## Author
 
-**Ameer Saleh**  
-Spatial Data Analysis Course  
-Jen and Barry's Ice Cream Site Selection using PostGIS
-
+**Ameer Saleh & Bara Mhana**  
+Spatial Data Analysis - Homework.1 
+Project Title: Jen and Barry's Ice Cream Site Selection using PostGIS
